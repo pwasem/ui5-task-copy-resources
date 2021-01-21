@@ -1,7 +1,7 @@
 {
-  "name": "ui5-task-copy-resources",
+  "name": "ui5-task-copy-shim-resources",
   "version": "0.1.0",
-  "description": "custom ui5 task for copying runtime resource at build time",
+  "description": "custom ui5 task for copying runtime shim resources at build time",
   "keywords": [
     "ui5",
     "task",
@@ -12,7 +12,7 @@
     "resources"
   ],
   "main": "index.js",
-  "repository": "https://github.com/pwasem/ui5-task-copy-resources",
+  "repository": "https://github.com/pwasem/ui5-task-copy-shim-resources",
   "author": "pwasem <pascal.wasem@googlemail.com>",
   "license": "MIT",
   "private": false,

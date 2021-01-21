@@ -1,7 +1,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-# ui5-task-copy-resources
-Custom UI5 task for copying runtime resources at build time.
+# ui5-task-copy-shim-resources
+Custom UI5 task for copying runtime shim resources at build time.
 
 This is especially useful if you have some [ProjectShims](https://sap.github.io/ui5-tooling/pages/extensibility/ProjectShims/) e.g. for npm dependencies which should also be available in final the build.
 
@@ -17,22 +17,22 @@ Add the custom task as _development dependency_ to your project.
 
 With `yarn`:
 ```sh
-yarn add -D ui5-task-copy-resources
+yarn add -D ui5-task-copy-shim-resources
 ```
 Or `npm`:
 ```sh
-npm i -D ui5-task-copy-resources
+npm i -D ui5-task-copy-shim-resources
 ```
 
 Additionally the custom task needs to be manually defined as a _ui5 dependency_ in your project's `package.json`:
 ```json
 {
   "devDependencies": {
-    "ui5-task-copy-resources": "^0.1.0"
+    "ui5-task-copy-shim-resources": "^0.1.0"
   },
   "ui5": {
     "dependencies": [
-      "ui5-task-copy-resources"
+      "ui5-task-copy-shim-resources"
     ]
   }
 }
@@ -52,7 +52,7 @@ type: application
 # ...
 builder:
   customTasks:
-    - name: ui5-task-copy-resources
+    - name: ui5-task-copy-shim-resources
       afterTask: replaceVersion
       configuration:
         paths:
@@ -124,7 +124,7 @@ The custom task accepts the following `configuration` options:
 ```yaml
 builder:
   customTasks:
-    - name: ui5-task-copy-resources
+    - name: ui5-task-copy-shim-resources
       afterTask: replaceVersion
       configuration:
         enabled: true
