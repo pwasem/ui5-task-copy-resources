@@ -1,0 +1,26 @@
+{
+  "name": "ui5-task-copy-resources",
+  "version": "0.1.0",
+  "description": "custom ui5 task for copying runtime resource at build time",
+  "keywords": [
+    "ui5",
+    "task",
+    "babel",
+    "openui5",
+    "tooling",
+    "copy",
+    "resources"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/pwasem/ui5-task-copy-resources",
+  "author": "pwasem <pascal.wasem@googlemail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
