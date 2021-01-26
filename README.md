@@ -135,3 +135,7 @@ builder:
         globs:
           - "/thirdparty/lodash/*.js"
 ```
+
+## Example app
+
+Please have look at [bookshop-ui](https://github.com/pwasem/bookshop-ui).
