@@ -1,6 +1,6 @@
 {
   "name": "ui5-task-copy-shim-resources",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "custom ui5 task for copying runtime shim resources at build time",
   "keywords": [
     "ui5",
